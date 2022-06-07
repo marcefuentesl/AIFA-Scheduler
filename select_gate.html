@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Registro de vuelo</title>
+    <title>Flight Registration</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
@@ -12,45 +12,45 @@
       <form action="/registrarVuelo.html">
         <div class="title">
           <i class="fas fa-plane"></i> 
-          <h2>Nuevo vuelo</h2>
+          <h2>New Flight</h2>
         </div>
         <div class="info">
           <input class="fname" type="text" name="numVuelo" placeholder="Número de vuelo">
 		  <select class="opciones" id="aerolineas" name="aerolinea">
-			  <option value="" selected>Aerolínea*</option>
-			  <option value="Aeromexico">Aeroméxico</option>
+			  <option value="" selected>Airline*</option>
+			  <option value="Aeromexico">Aeromexico</option>
 			  <option value="Conviasa">Conviasa</option>
-			  <option value="Viva aerobus">Viva aerobus</option>
+			  <option value="Viva aerobus">Viva Aerobus</option>
 			  <option value="Volaris">Volaris</option>
 		  </select>
           <select class="opciones" id="ciudades" name="ciudadorigen">
-            <option value="" selected>Ciudad Origen*</option>
+            <option value="" selected>Origin*</option>
 			<option value="Caracas">Caracas</option>
 			<option value="Acapulco">Acapulco</option>
 			<option value="Puebla">Puebla</option>
 			<option value="Cancun">Cancun</option>
 			<option value="Mendoza">Mendoza</option>
-            <option value="CDMX">Ciudad de México</option>
+            <option value="CDMX">Mexico City</option>
 			<option value="Monterrey">Monterrey</option>
 			<option value="Montreal">Montreal</option>
-			<option value="Nueva York">Nueva York</option>
+			<option value="Nueva York">New York</option>
 			<option value="Toluca">Toluca</option>
           </select>
 		  <select class="opciones" id="ciudades" name="ciudaddestino">
-            <option value="" selected>Ciudad Destino*</option>
+            <option value="" selected>Destination*</option>
 			<option value="Caracas">Caracas</option>
 			<option value="Acapulco">Acapulco</option>
 			<option value="Puebla">Puebla</option>
 			<option value="Cancun">Cancun</option>
 			<option value="Mendoza">Mendoza</option>
-            <option value="CDMX">Ciudad de México</option>
+            <option value="CDMX">Mexico City</option>
 			<option value="Monterrey">Monterrey</option>
 			<option value="Montreal">Montreal</option>
-			<option value="Nueva York">Nueva York</option>
+			<option value="Nueva York">New York</option>
 			<option value="Toluca">Toluca</option>
           </select>
 		  <label name="salida">
-			Fecha de salida:
+			Departure date:
 			<input type="date" name="fsalida">
 		  </label>
 		  <input type="number" name="hsalida" placeholder="0" min="0" max="23">
