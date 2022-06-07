@@ -17,10 +17,10 @@ function sendEmail() {
 	Host: "smtp.gmail.com",
 	Username : "softwarearqui5",
 	Password : "SoftwareArqui1234",
-	To : emial,
+	To : "A01748161@tec.mx",
 	From : "softwarearqui5@gmail.com",
 	Subject : "Gate reservation request",
-	Body : msg,
+	Body : "You just successfully made a gate reservation at AIFA.",
 	}).then(
 		message => alert("mail sent successfully")
 	);
